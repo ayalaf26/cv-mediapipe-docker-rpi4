@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  cvs:    
+    build: ./
+    hostname: cv
+    volumes:
+      - ./:/app
+      - /tmp/.X11-unix
+    privileged: true
+    environment:
+      - DISPLAY
+      - "MPLBACKEND=TKAgg"
+    network_mode: host
