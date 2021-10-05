@@ -9,6 +9,6 @@ The main idea is to enable computer vision (cv) on a stand-alone device, taking 
 - cv processing requires access to the camera for image/video acquisition and an xserver for result presentation. It means we need to handle special premissions to the user who runs the python script, enable special privileges for the docker container and enable a secure way for xserver.
 
 ## Pre-requisites (comming soon)
-- full upgrade
+- rpi4 OS full upgrade
 - install docker
 - xauth list validation
