@@ -14,6 +14,6 @@ The main idea is to enable computer vision (cv) on a stand-alone device, taking 
 - xauth list validation
 
 ## Remarks
-- to run container excecute: ./start.sh
-- when the container start, it runs entry.sh and it runs Python script main.py.
-- I recommend to tailor main.py according to your needs. 
+- Excecute start.sh to get the cookie of the host and run the container.
+- When the container start, it runs entry.sh and it runs Python script main.py.
+- I recommend to tailor main.py according to your needs.
